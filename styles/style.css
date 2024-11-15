@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background: #35374B;
+    color: #FFFFFF;
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+/* General styles for the navbar */
+.header-nav {
+    margin-top: 0;
+    background: #030637;
+    padding: 15px 30px; /* Espaciado interno */
+}
+
+.nav-bar {
+    display: flex; /* Activar flexbox */
+    align-items: center; /* Alinear verticalmente los elementos */
+    justify-content: space-between; /* Separar elementos a extremos opuestos */
+}
+
+/* Logo */
+.logo {
+    max-width: 70px;
+    max-height: 70px; /* Ajustar el tamaño máximo del logo */
+    margin-right: auto; /* Mantener el logo a la izquierda */
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+h5 {
+    margin: 0;
+    font-size: 2em;
+    color: #E3651D;
+    text-shadow: 5px 4px 5px rgba(250, 163, 3, 0.5);
+}
+
+/* Lista de navegación */
+.ul-nav {
+    display: flex; /* Organizar los elementos horizontalmente */
+    align-items: center; /* Alinear verticalmente */
+    list-style: none; /* Eliminar los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    margin-left: auto; /* Empujar los elementos hacia la derecha */
+}
+
+/* Items del navbar */
+.nav-li {
+    margin-left: 20px; /* Espaciado entre los elementos */
+    cursor: pointer;
+    font-size: 1.5em;
+    border-bottom: 1px solid #FFFFFF;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 1px;
+}
+
+.nav-li:hover {
+    text-decoration: none; /* Subrayado al pasar el cursor */
+    color: #E3651D;
+    border-bottom: 1px solid #E3651D;
+}
+
+.section-describe {
+    max-width: 30%;
+    max-height: 50%;
+    margin-top: 5em;
+    margin-left: 12em;
+}
+
+.text-desc {
+    font-size: 1.5em;
+    color: #E4E2E3;
+    letter-spacing: 1px;
+}
+
+.tags {
+    color: #929192;
+}
+
+
