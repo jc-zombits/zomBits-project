@@ -71,10 +71,22 @@ h5 {
     font-size: 1.5em;
     color: #E4E2E3;
     letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.zombits {
+    color: #E3651D;
 }
 
 .tags {
     color: #929192;
 }
 
+/*CARDS*/
+.title-card {
+    margin-top: 2em;
+    margin-left: 2em;
+    font-size: 1.8em;
+    color: #cfcdcd;
+}
 
